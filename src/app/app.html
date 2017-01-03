@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Angular Directive</h2>
+    <div class="row">
+        <div class="col-xs-4">
+            <form action="">
+                <label for="">
+                    US Phone Format
+                </label>
+                <input  type="text"
+                        class="form-control"
+                        name="phoneNumber"
+                        maxlength="13"
+                        ng-model="vm.phoneNumber"
+                        phone-format-us
+                        placeholder="(555) 555-5555">
+            </form>
+        </div>
+    </div>
+</div>
